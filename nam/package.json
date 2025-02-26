@@ -1,0 +1,14 @@
+{
+  "name": "nam",
+  "version": "1.0.0",
+  "description": "hi this is ab ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Naidu Bagana",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
