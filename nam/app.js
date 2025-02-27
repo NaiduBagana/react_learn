@@ -12,5 +12,18 @@ const parent = React.createElement(
     React.createElement("h1", { id: "heading" }, "Hello, wohiii! ab")
   )
 );
+//const jsxx = <h1 id="heading" className="hello "> hi ab what are you doing here</h1>;
+const Title = ()=> <h1>This is a title</h1>  ;
+const Abcompo = ()=>(
+    
+   <div className="container">
+     <Title />
+     <h1 id="heading" className="hello "> hi ab what are you doing here</h1>
+     <h2>This is a subheading</h2>
+   </div>
+);
 const rootElement = ReactDOM.createRoot(document.getElementById('root'));
-rootElement.render(parent);
+
+// rootElement.render(parent);
+//rootElement.render(jsxx);
+rootElement.render(<Abcompo />);

@@ -4,6 +4,8 @@
   "description": "hi this is ab ",
   "main": "app.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Naidu Bagana",
